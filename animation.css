@@ -1,0 +1,16 @@
+/*css for logo animation - animation.html*/
+
+body{
+    background-color: #0F4C5C;
+}
+.sprite{
+    width: 500px;
+    height: 500px;
+    background: url("idahay_logo.png") 0 0 no-repeat;
+    animation:play 5s steps(21) infinite ;
+
+}
+@keyframes play{
+    0%{ background-position: 0px;}
+    100%{background-position: -10500px;}
+}
